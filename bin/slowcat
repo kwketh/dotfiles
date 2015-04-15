@@ -1,0 +1,25 @@
+#!/usr/bin/python
+# slowcat.py - prints a file slowly.
+
+import sys, time
+
+delay = .02
+if len(sys.argv) > 1:
+  arg = sys.argv[1]
+  if arg != "-d":
+    print "usage: %s [-d delay]" % (sys.argv[0])
+    print "delay: delay in seconds"
+    sys.exit()
+  if len(sys.argv) > 2:
+    delay = float(sys.argv[2])
+
+while 1:
+  try:
+    char = sys.stdin.read(1)
+    if char == '':
+      break
+    sys.stdout.write(char)
+    sys.stdout.flush()
+  except:
+    break
+  time.sleep(delay)
