@@ -413,6 +413,10 @@ set laststatus=2
 set statusline=%<%F\ %h%m%r%y%=%-14.(%l,%c%V%)\ %P
 set showtabline=0
 
+syntax enable
+set background=dark
+colorscheme solarized
+
 " hi! CursorLine cterm=bold ctermfg=148
 hi! CursorLineNr cterm=bold 
 
