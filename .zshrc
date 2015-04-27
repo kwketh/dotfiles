@@ -49,6 +49,18 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# Detect platform
+
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+    platform='linux'
+elif [[ "$unamestr" == 'FreeBSD' ]]; then
+    platform='freebsd'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+    platform='macos'
+fi
+
 # User files
 
 if [ -f ~/.bash_paths ]; then
