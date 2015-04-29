@@ -416,6 +416,7 @@ set showtabline=0
 syntax enable
 set background=dark
 colorscheme solarized
+set paste
 
 " hi! CursorLine cterm=bold ctermfg=148
 hi! CursorLineNr cterm=bold 
