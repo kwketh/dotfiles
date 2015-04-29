@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/kwketh/Documents/test3/includes/psapi'
-let g:netrw_dirhist_2='/Users/kwketh/Documents/dev/ps/repos/ps/swissper-iosapp/src/thirdparty/submodules/CTAssetsPickerController'
-let g:netrw_dirhist_3='scp://ec2-user@tll-us/home/ec2-user/'
-let g:netrw_dirhist_4='scp://ec2-user@tll-us//home/ec2-user/'
-let g:netrw_dirhist_5='/Users/kwketh/test'
-let g:netrw_dirhist_6='/opt/local/lib/node_modules/pogo/lib'
-let g:netrw_dirhist_7='/Users/kwketh/Documents/wallet'
