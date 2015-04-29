@@ -26,3 +26,10 @@ if [ -d "/opt/sqlmap" ]; then
     alias sqlmap="python /opt/sqlmap/sqlmap.py"
 fi
 
+# Grabs the disk usage in the current directory
+alias usage='du -ch | grep total'
+alias fatducks='du -ck | sort -nr | head'
+
+# Gets the total disk usage on your machine
+alias totalusage='df'
+
