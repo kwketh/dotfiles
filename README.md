@@ -22,7 +22,7 @@ make build
 
 and to enter the dev environment (while boot2docker is running):
 ```
-$ make bash
+$ ./dev-env.sh
 root@dev-env ~ $
 ```
 
@@ -34,7 +34,7 @@ docker pull kwketh/docker-dev-env
 
 and to enter zsh:
 ```
-$ docker run -h dev-env --rm -it -w "/root" kwketh/docker-dev-env:latest /bin/zsh
+$ docker run -h dev-env --rm -it -w "/root" kwketh/docker-dev-env:latest
 root@dev-env ~ $ 
 ```
 
