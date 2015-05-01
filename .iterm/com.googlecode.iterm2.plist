@@ -716,9 +716,9 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSColorPanelMode</key>
-	<string>3</string>
+	<string>1</string>
 	<key>NSColorPickerSlidersDefaults</key>
-	<string>3</string>
+	<string>1</string>
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSFontPanelPreviewHeight</key>
@@ -777,13 +777,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>733 271 445 96 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>467 288 924 485 0 0 1440 877 </string>
+	<string>277 157 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>78 427 570 426 0 0 1440 877 </string>
+	<string>266 118 1109 586 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>567 403 570 426 0 0 1440 877 </string>
+	<string>301 400 570 426 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
 	<string>667 365 570 401 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 11</key>
@@ -805,21 +805,21 @@
 	<key>NSWindow Frame iTerm Window 19</key>
 	<string>582 75 570 451 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>152 255 570 451 0 0 1440 877 </string>
+	<string>500 241 570 426 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 20</key>
 	<string>603 52 570 451 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>279 132 857 596 0 0 1440 877 </string>
+	<string>226 282 1109 442 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>582 385 570 401 0 0 1440 877 </string>
+	<string>403 286 570 426 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>332 440 1053 416 0 0 1440 877 </string>
+	<string>332 424 570 426 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
-	<string>562 287 570 401 0 0 1440 877 </string>
+	<string>562 255 570 426 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 7</key>
-	<string>299 381 570 401 0 0 1440 877 </string>
+	<string>299 349 885 426 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 8</key>
-	<string>270 178 570 401 0 0 1440 877 </string>
+	<string>270 146 570 426 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 9</key>
 	<string>136 203 962 476 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1637,7 +1637,9 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-04-27T16:03:02Z</date>
+	<date>2015-05-01T19:51:56Z</date>
+	<key>SUSkippedVersion</key>
+	<string>2.1</string>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
