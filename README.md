@@ -38,8 +38,8 @@ $ docker run -h dev-env --rm -it -w "/root" kwketh/docker-dev-env:latest
 root@dev-env ~ $ 
 ```
 
-## Inspiration and specal thanks to
-<https://github.com/posva/dotfiles> for `bin/catimg`
+## Inspiration and special thanks to
+ - <https://github.com/posva/dotfiles> for `bin/catimg`
 
 ## License
 The MIT License (MIT)
