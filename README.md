@@ -8,8 +8,8 @@ Personal shell config files.
 cd ~    
 git init .
 git remote add origin https://github.com/kwketh/dotfiles.git
-git fetch
-git reset origin/master
+git fetch && git checkout master
+make
 ```
 
 ### Installation via Docker (builds image)
