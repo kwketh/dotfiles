@@ -666,13 +666,19 @@
 	<key>DimBackgroundWindows</key>
 	<false/>
 	<key>DimInactiveSplitPanes</key>
-	<false/>
+	<true/>
 	<key>DimOnlyText</key>
-	<false/>
+	<true/>
 	<key>DisableFullscreenTransparency</key>
+	<true/>
+	<key>DisableWindowSizeSnap</key>
 	<false/>
+	<key>EliminateCloseButtons</key>
+	<true/>
 	<key>EnableRendezvous</key>
 	<false/>
+	<key>FlashTabBarInFullscreen</key>
+	<true/>
 	<key>FocusFollowsMouse</key>
 	<false/>
 	<key>FsTabDelay</key>
@@ -689,6 +695,10 @@
 	<false/>
 	<key>HideTab</key>
 	<true/>
+	<key>HideTabCloseButton</key>
+	<true/>
+	<key>HideTabNumber</key>
+	<false/>
 	<key>HighlightTabLabels</key>
 	<true/>
 	<key>HotKeyBookmark</key>
@@ -704,7 +714,7 @@
 	<key>HotkeyModifiers</key>
 	<integer>0</integer>
 	<key>IRMemory</key>
-	<integer>4</integer>
+	<integer>1</integer>
 	<key>JobName</key>
 	<true/>
 	<key>LeftCommand</key>
@@ -716,9 +726,9 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSColorPanelMode</key>
-	<string>1</string>
+	<string>7</string>
 	<key>NSColorPickerSlidersDefaults</key>
-	<string>1</string>
+	<string>3</string>
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSFontPanelPreviewHeight</key>
@@ -739,6 +749,8 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
+	<false/>
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
 		<data>
@@ -750,7 +762,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>302</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -773,27 +785,29 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>912 140 231 329 0 0 1440 877 </string>
+	<string>1175 186 231 348 0 0 1440 877 </string>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>733 271 445 96 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>277 157 924 485 0 0 1440 877 </string>
+	<string>360 374 606 456 0 0 1440 877 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>410 376 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>266 118 1109 586 0 0 1440 877 </string>
+	<string>386 389 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>301 400 570 426 0 0 1440 877 </string>
+	<string>267 352 899 522 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
-	<string>667 365 570 401 0 0 1440 877 </string>
+	<string>559 435 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 11</key>
-	<string>288 373 570 401 0 0 1440 877 </string>
+	<string>288 325 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 12</key>
-	<string>495 375 570 401 0 0 1440 877 </string>
+	<string>601 363 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 13</key>
-	<string>523 382 570 401 0 0 1440 877 </string>
+	<string>458 144 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 14</key>
-	<string>233 219 570 401 0 0 1440 877 </string>
+	<string>233 187 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 15</key>
 	<string>613 309 570 401 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 16</key>
@@ -805,28 +819,40 @@
 	<key>NSWindow Frame iTerm Window 19</key>
 	<string>582 75 570 451 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>500 241 570 426 0 0 1440 877 </string>
+	<string>109 321 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 20</key>
 	<string>603 52 570 451 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>226 282 1109 442 0 0 1440 877 </string>
+	<string>807 450 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>403 286 570 426 0 0 1440 877 </string>
+	<string>786 265 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>332 424 570 426 0 0 1440 877 </string>
+	<string>470 251 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
-	<string>562 255 570 426 0 0 1440 877 </string>
+	<string>159 435 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 7</key>
-	<string>299 349 885 426 0 0 1440 877 </string>
+	<string>605 281 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 8</key>
-	<string>270 146 570 426 0 0 1440 877 </string>
+	<string>311 259 570 427 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 9</key>
-	<string>136 203 962 476 0 0 1440 877 </string>
+	<string>136 235 570 427 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>AWDS Pane Directory</key>
+			<string></string>
+			<key>AWDS Pane Option</key>
+			<string>No</string>
+			<key>AWDS Tab Directory</key>
+			<string></string>
+			<key>AWDS Tab Option</key>
+			<string>No</string>
+			<key>AWDS Window Directory</key>
+			<string></string>
+			<key>AWDS Window Option</key>
+			<string>No</string>
 			<key>Allow Title Reporting</key>
 			<false/>
 			<key>Ambiguous Double Width</key>
@@ -932,12 +958,16 @@
 			</dict>
 			<key>Ansi 5 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.67259865999221802</real>
+				<real>0.61050695180892944</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.24461284279823303</real>
+				<real>0.15628169476985931</real>
 				<key>Red Component</key>
-				<real>0.27650678157806396</real>
+				<real>0.21307635307312012</real>
 			</dict>
 			<key>Ansi 6 Color</key>
 			<dict>
@@ -992,6 +1022,21 @@
 			<false/>
 			<key>Background Image Location</key>
 			<string></string>
+			<key>Badge Color</key>
+			<dict>
+				<key>Alpha Component</key>
+				<real>0.16</real>
+				<key>Blue Component</key>
+				<real>0.0</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
+				<key>Green Component</key>
+				<real>0.0</real>
+				<key>Red Component</key>
+				<real>1</real>
+			</dict>
+			<key>Badge Text</key>
+			<string></string>
 			<key>Blend</key>
 			<real>0.30000001192092896</real>
 			<key>Blink Allowed</key>
@@ -999,7 +1044,7 @@
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
-			<true/>
+			<false/>
 			<key>Blur Radius</key>
 			<real>15</real>
 			<key>Bold Color</key>
@@ -1018,15 +1063,19 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string></string>
+			<string>/bin/zsh</string>
 			<key>Cursor Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.51685798168182373</real>
+				<real>0.80307668447494507</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.50962930917739868</real>
+				<real>0.8030630350112915</real>
 				<key>Red Component</key>
-				<real>0.44058024883270264</real>
+				<real>0.80308705568313599</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -1040,7 +1089,7 @@
 			<key>Cursor Type</key>
 			<integer>2</integer>
 			<key>Custom Command</key>
-			<string>No</string>
+			<string>Yes</string>
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Default Bookmark</key>
@@ -1362,6 +1411,19 @@
 					<string>[1;5F</string>
 				</dict>
 			</dict>
+			<key>Link Color</key>
+			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
+				<key>Blue Component</key>
+				<real>0.99838453531265259</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
+				<key>Green Component</key>
+				<real>0.37219887971878052</real>
+				<key>Red Component</key>
+				<real>0.14889369904994965</real>
+			</dict>
 			<key>Log Directory</key>
 			<string></string>
 			<key>Minimum Contrast</key>
@@ -1378,6 +1440,10 @@
 			<string>SourceCodePro-Light 12</string>
 			<key>Option Key Sends</key>
 			<integer>2</integer>
+			<key>Place Prompt at First Column</key>
+			<true/>
+			<key>Prevent Opening in a Tab</key>
+			<false/>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
@@ -1394,12 +1460,16 @@
 			<true/>
 			<key>Selected Text Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.56363654136657715</real>
+				<real>0.99937522411346436</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.56485837697982788</real>
+				<real>0.99896693229675293</real>
 				<key>Red Component</key>
-				<real>0.50599193572998047</real>
+				<real>0.57606214284896851</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
@@ -1520,6 +1590,8 @@
 					<string>\btelnet:([a-z0-9A-Z_]+@)?([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\b</string>
 				</dict>
 			</array>
+			<key>Space</key>
+			<integer>0</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -1527,7 +1599,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.061221800744533539</real>
+			<real>0.071248616754303329</real>
 			<key>Triggers</key>
 			<array>
 				<dict>
@@ -1563,7 +1635,15 @@
 			<false/>
 			<key>Use Canonical Parser</key>
 			<false/>
+			<key>Use Cursor Guide</key>
+			<false/>
+			<key>Use HFS Plus Mapping</key>
+			<false/>
 			<key>Use Italic Font</key>
+			<false/>
+			<key>Use Non-ASCII Font</key>
+			<true/>
+			<key>Use Tab Color</key>
 			<false/>
 			<key>Vertical Spacing</key>
 			<real>1</real>
@@ -1575,6 +1655,12 @@
 			<string>/Users/kwketh</string>
 		</dict>
 	</array>
+	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
+	<true/>
+	<key>NoSyncTimeOfLastPromo</key>
+	<real>453855395.321724</real>
+	<key>NoSyncTimeOfLastPromoDownload</key>
+	<real>453941800.70185</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1587,6 +1673,8 @@
 	<false/>
 	<key>PasteFromClipboard</key>
 	<false/>
+	<key>PinchToChangeFontSizeDisabled</key>
+	<true/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1632,15 +1720,19 @@
 	<integer>3</integer>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>http://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/nightly.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-05-01T19:51:56Z</date>
-	<key>SUSkippedVersion</key>
-	<string>2.1</string>
+	<date>2015-06-02T21:45:03Z</date>
 	<key>SavePasteHistory</key>
+	<false/>
+	<key>Secure Input</key>
+	<true/>
+	<key>Show Toolbelt</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
@@ -1649,40 +1741,52 @@
 	<key>SmartPlacement</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.10000000149011612</real>
+	<real>0.34127353766025648</real>
 	<key>SwitchTabModifier</key>
 	<integer>4</integer>
 	<key>SwitchWindowModifier</key>
 	<integer>6</integer>
+	<key>TabStyle</key>
+	<integer>1</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>ThreeFingerEmulates</key>
 	<false/>
 	<key>TmuxDashboardLimit</key>
 	<integer>10</integer>
+	<key>ToolbeltTools</key>
+	<array>
+		<string>Profiles</string>
+	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1426166656</real>
 	<key>URLHandlersByGuid</key>
 	<dict/>
+	<key>Use background pattern indicator</key>
+	<false/>
 	<key>UseBorder</key>
 	<false/>
 	<key>UseCompactLabel</key>
 	<true/>
 	<key>UseLionStyleFullscreen</key>
 	<true/>
+	<key>UseSystemCursorWhenPossible</key>
+	<false/>
 	<key>WebKitDefaultFontSize</key>
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
 	<string>.Helvetica Neue DeskInterface</string>
 	<key>WindowNumber</key>
-	<true/>
+	<false/>
 	<key>WindowStyle</key>
 	<integer>0</integer>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>2.0.0.20141103</string>
+	<string>2.9.20150602-nightly</string>
+	<key>kCommandHistoryHasEverBeenUsed</key>
+	<true/>
 </dict>
 </plist>
